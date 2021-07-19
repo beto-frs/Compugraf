@@ -1,0 +1,48 @@
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="nome" name="nome" [(ngModel)]="request.nome"  placeholder="Ex: João">
+  </div>
+  <div class="col-md-4">
+    <label for="sobrenome" class="form-label">Sobrenome</label>
+    <input type="text" class="form-control" id="sobrenome" name="sobrenome"  [(ngModel)]="request.sobrenome"  placeholder="Ex: da Silva">
+  </div>
+  <div class="col-md-2">
+    <label for="cpf" class="form-label">CPF</label>
+    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Ex: 123.456.789-01" [(ngModel)]="request.cpf">
+  </div>
+  <div class="col-md-2">
+    <label for="nacionalidade" class="form-label">Nacionalidade</label>
+    <input type="text" class="form-control" id="nacionalidade" name="nacionalidade" placeholder="Ex: Brasileira"  [(ngModel)]="request.nacionalidade">
+  </div>
+  <div class="col-md-2">
+    <label for="CEP" class="form-label">CEP</label>
+    <input type="text" class="form-control" id="cep" name="cep"  [(ngModel)]="request.cep"  placeholder="Ex: 01234-567">
+  </div>
+  <div class="col-md-5">
+    <label for="Logradouro" class="form-label">Endereço</label>
+    <input type="text" id="logradouro" class="form-control" name="logradouro"  [(ngModel)]="request.logradouro"  placeholder="Ex: Rua Boa Vista, 123">
+  </div>
+  <div class="col-md-3">
+    <label for="cidade" class="form-label">Cidade</label>
+    <input type="text" class="form-control" id="cidade" name="cidade"  [(ngModel)]="request.cidade"  placeholder="Ex: São Paulo">
+  </div>
+  <div class="col-md-2">
+    <label for="estado" class="form-label">Estado</label>
+    <input type="text" class="form-control" id="estado" name="estado"  [(ngModel)]="request.estado">
+    </div>
+    <div class="col-md-4">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="text" class="form-control" id="email" name="email"  [(ngModel)]="request.email" placeholder="Ex: email@email.com">
+      </div>
+      <div class="col-md-4">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="telefone" class="form-control" id="telefone" name="telefone"  [(ngModel)]="request.telefone"  placeholder="Ex: (11)12345-6789">
+        </div>
+  <div class="col-md-1  align-self-end">
+    <button type="submit" class="btn btn-success" (click)="Save()">Salvar</button>
+  </div>
+  <div class="col-md-1  align-self-end">
+    <button type="reset" class="btn btn-danger">Limpar</button>
+  </div>
+</form>

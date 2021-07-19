@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WEB.API</name>
+    </assembly>
+    <members>
+        <member name="M:WEB.API.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Lista usuários.
+            </summary>
+        </member>
+        <member name="M:WEB.API.Controllers.UsuariosController.GetUsuario(System.Int32)">
+            <summary>
+            Buscar usuário.
+            </summary>
+        </member>
+        <member name="M:WEB.API.Controllers.UsuariosController.PutUsuario(System.Int32,WEB.API.Model.Usuario)">
+            <summary>
+            Alterar usuário.
+            </summary>
+        </member>
+        <member name="M:WEB.API.Controllers.UsuariosController.PostUsuario(WEB.API.Model.Usuario)">
+            <summary>
+            Incluir usuário.
+            </summary>
+        </member>
+        <member name="M:WEB.API.Controllers.UsuariosController.DeleteUsuario(System.Int32)">
+            <summary>
+            Excluir usuário.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,34 @@
+<div class="table-responsive">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Sobrenome</th>
+      <th scope="col">CPF</th>
+      <th scope="col">Nacionalidade</th>
+      <th scope="col">CEP</th>
+      <th scope="col">Logradouro</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Cidade</th>
+      <th scope="col">Email</th>
+      <th scope="col">Telefone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuarios">
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.id}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.nome}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.sobrenome}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.cpf}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.nacionalidade}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.cep}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.logradouro}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.estado}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.cidade}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.email}}</td>
+      <td class="col-sm-2 col-form-label col-form-label-sm">{{usuario.telefone}}</td>
+    </tr>
+    </tbody>
+</table>
+</div>

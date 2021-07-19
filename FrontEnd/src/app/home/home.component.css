@@ -1,0 +1,16 @@
+.img-svg {
+  width: 80px;
+
+}
+
+.sombra {
+  color:transparent;
+
+}
+
+.sombra :hover{
+  text-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  color:yellow;
+
+}
+
