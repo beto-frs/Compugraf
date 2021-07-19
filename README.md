@@ -55,7 +55,7 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 
 
 
-![](Screens\DockerHub.png)
+<img src="Screens\DockerHub.png" style="zoom:100%;" />
 
 > Screenshot da API criada e disponibilizada no DockerHub.
 
@@ -63,7 +63,7 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 
 
 
-![](Screens\Docker.png)
+<img src="Screens\Docker.png" style="zoom:100%;" />
 
 > Screenshot do Docker com os 2 containers em execução.
 
@@ -71,7 +71,7 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 
 
 
-![](Screens\Front.png)
+<img src="Screens\Front.png" style="zoom:100%;" />
 
 > Screenshot da tela do Front ( Home ).
 
@@ -79,13 +79,13 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 
 
 
-![](Screens\Inclusão.png)
+<img src="Screens\Inclusão.png" style="zoom:100%;" />
 
 > Screenshot da tela de Incluir.
+------
 
 
-
-![](Screens\Listar.png)
+<img src="Screens\Listar.png" style="zoom:100%;" />
 
 > Screenshot da tela de listagem.
 
