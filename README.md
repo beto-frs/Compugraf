@@ -52,7 +52,10 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 > Screenshot do Swagger ( API )
 
 ------
-
+<br>
+<br>
+<br>
+<br>
 
 
 <img src="Screens\DockerHub.png" style="zoom:100%;" />
@@ -60,6 +63,8 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 > Screenshot da API criada e disponibilizada no DockerHub.
 
 ------
+<br>
+<br>
 <br>
 <br>
 
@@ -71,6 +76,8 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 ------
 <br>
 <br>
+<br>
+<br>
 
 
 <img src="Screens\Front.png" style="zoom:100%;" />
@@ -80,12 +87,16 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DB
 ------
 <br>
 <br>
+<br>
+<br>
 
 
 <img src="Screens\Inclusão.png" style="zoom:100%;" />
 
 > Screenshot da tela de Incluir.
 ------
+<br>
+<br>
 <br>
 <br>
 
