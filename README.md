@@ -36,7 +36,7 @@ docker pull betofrs/api
 **Execução da imagem do SQL:**
 
 ```
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=a1b2c3d4e5' -p 1433:1433 --name DBCompugraf -d mcr.microsoft.com/mssql/server:latest
+sudo docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=a1b2c3d4e5" -p 1433:1433 --name SQLServer -v /home:/home -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 
